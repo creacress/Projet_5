@@ -201,16 +201,18 @@ header {
   object-fit: cover;
   object-position: center;
 }
-/* Code CSS en prévision de l'ajout d'un carousel pour la bannière */
 /* Gestion des fleches du carrousel */
 #banner .arrow {
   position: absolute;
+  cursor: pointer;
 }
-#banner .arrow_left {
-  left: 10px;
+.arrow_right {
+  position: absolute;
+  left: 350px;
 }
-#banner .arrow_right {
-  right: 10px;
+.arrow_left {
+  position: absolute;
+  right: 350px;
 }
 /* Gestion des points du carrousel */
 .dots {
