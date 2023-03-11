@@ -30,7 +30,6 @@ const slides = [
 
 //comptage des slides
 const totalSlide = slides.length;
-console.log(totalSlide);
 
 //mis en place d'un eventListener sur les fleches
 leftArrow.addEventListener("click", (e) => {
@@ -98,6 +97,7 @@ function bulletPointActif(slideEnCours) {
   activeBulletPoint.classList.add("dot_selected");
   inactifBulletPoint.classList.remove("dot_selected");
 }
+/*
 //});
 if (slides) {
   setTimeout(() => {}, timeout);
@@ -108,3 +108,4 @@ setTimeout(() => {
   slides;
   console.log("hello");
 }, 2000);
+*/
